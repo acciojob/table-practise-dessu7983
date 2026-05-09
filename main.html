@@ -1,31 +1,67 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details Table</title>
 
+    <style>
+        table, th, td, tr {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            background-color: yellow;
+            width: 60%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 <body>
-	   <h1 text-align="center">Student details</h1>
-	<table border="2px solid black" bgcolor="yellow">
-		 <tr>
-			 <th>NAME</th>
-			 <th>AGE</th>
-			 <th>BRANCH</th>
-		 </tr>
-		<tr >
-			<td>Shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-		</tr>
-		<tr>
-			<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-	</table>
+
+    <table>
+        <caption>Student Details</caption>
+
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+
+            <tr>
+                <td>Anjali</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+
+            <tr>
+                <td>Amit</td>
+                <td>22</td>
+                <td>ME</td>
+            </tr>
+        </tbody>
+    </table>
 
 </body>
-
 </html>
